@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan Hidup Hijau | INature</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" integrity="sha384-XGjxtQfXaH2tnPFa9x+ruJTuLE3Aa6LhHSWRr1XeTyhezb4abCG4ccI5AkVDxqC+" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand text-primary-custom fs-4" href="beranda.html">
+                <i class="bi bi-tree-fill me-2"></i>INature
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-2">
+                    <li class="nav-item"><a class="nav-link" href="beranda.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="panduan.html">Panduan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kalkulator.html">Kalkulator</a></li>
+                    <li class="nav-item"><a class="nav-link" href="chatbot.html">EcoBot</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="margin-top: 120px; margin-bottom: 80px;">
+        <div class="text-center mb-5">
+            <h1 class="fw-bold text-primary-custom">Panduan Hidup Hijau</h1>
+            <p class="text-muted fs-5">Langkah demi langkah komprehensif untuk memulai gaya hidup yang lebih ramah lingkungan.</p>
+        </div>
+
+        <!-- Tabs -->
+        <ul class="nav nav-tabs justify-content-center mb-5" id="guideTabs">
+            <li class="nav-item">
+                <button class="nav-link active text-dark fw-bold fs-5" id="sampah-tab" data-bs-toggle="tab" data-bs-target="#sampah" type="button"><i class="bi bi-recycle me-2"></i>Sampah</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link text-dark fw-bold fs-5" id="air-tab" data-bs-toggle="tab" data-bs-target="#air" type="button"><i class="bi bi-droplet me-2"></i>Air</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link text-dark fw-bold fs-5" id="energi-tab" data-bs-toggle="tab" data-bs-target="#energi" type="button"><i class="bi bi-lightning me-2"></i>Energi</button>
+            </li>
+            <li class="nav-item">
+                <button class="nav-link text-dark fw-bold fs-5" id="transport-tab" data-bs-toggle="tab" data-bs-target="#transport" type="button"><i class="bi bi-bicycle me-2"></i>Transportasi</button>
+            </li>
+        </ul>
+
+        <!-- Tab Contents -->
+        <div class="tab-content" id="guideTabsContent">
+            
+            <!-- Kelola Sampah -->
+            <div class="tab-pane fade show active" id="sampah" role="tabpanel">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/guide_waste_1778799283524.png" alt="Panduan Kelola Sampah" class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; aspect-ratio: 4/5;">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="fw-bold mb-4 text-primary-custom">Strategi Pengelolaan Sampah Modern</h3>
+                        <p class="text-muted mb-4">Setiap individu menghasilkan rata-rata 0,7 kg sampah per hari. Mengelola sampah bukan sekadar membuangnya ke tempat sampah, melainkan memastikan siklus hidup material tidak merusak alam.</p>
+                        
+                        <div class="accordion" id="accordionSampah">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#sampah1">
+                                        1. Kurangi Plastik Sekali Pakai <span class="badge bg-success ms-auto">Langkah Dasar</span>
+                                    </button>
+                                </h2>
+                                <div id="sampah1" class="accordion-collapse collapse show" data-bs-parent="#accordionSampah">
+                                    <div class="accordion-body">
+                                        <p>Plastik sekali pakai seperti sedotan, kantong kresek, dan botol air mineral membutuhkan ratusan tahun untuk terurai. Langkah nyata yang bisa Anda lakukan:</p>
+                                        <ul>
+                                            <li>Selalu bawa <i>tote bag</i> berbahan kain saat berbelanja ke minimarket atau pasar.</li>
+                                            <li>Gunakan <i>tumbler</i> berstandar <i>food grade</i> untuk bekal air minum.</li>
+                                            <li>Tolak penggunaan alat makan plastik saat memesan makanan *online* (banyak aplikasi kini memiliki opsi ini).</li>
+                                        </ul>
+                                        <div class="mt-3">
+                                            <p class="small text-muted mb-1 fw-bold">Dampak Lingkungan (Reduksi Emisi):</p>
+                                            <div class="progress" style="height: 12px;">
+                                                <div class="progress-bar" style="width: 70%">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#sampah2">
+                                        2. Sistem Pemilahan 3 Kategori Utama <span class="badge bg-warning text-dark ms-auto">Langkah Menengah</span>
+                                    </button>
+                                </h2>
+                                <div id="sampah2" class="accordion-collapse collapse" data-bs-parent="#accordionSampah">
+                                    <div class="accordion-body">
+                                        <p>Memisahkan sampah adalah kunci agar material bisa didaur ulang. Biasakan memilah sampah rumah tangga menjadi 3 kategori:</p>
+                                        <ul>
+                                            <li><strong>Organik:</strong> Sisa makanan, kulit buah, dedaunan. Bisa diolah menjadi kompos atau <i>eco-enzyme</i>.</li>
+                                            <li><strong>Anorganik (Daur Ulang):</strong> Kertas, kardus, botol plastik PET, kaleng aluminium. Bersihkan sebelum disetorkan ke bank sampah.</li>
+                                            <li><strong>B3 (Bahan Berbahaya):</strong> Baterai bekas, lampu neon, obat kedaluwarsa. Serahkan ke fasilitas pengelolaan limbah khusus.</li>
+                                        </ul>
+                                        <div class="mt-3">
+                                            <p class="small text-muted mb-1 fw-bold">Efisiensi Daur Ulang:</p>
+                                            <div class="progress" style="height: 12px;">
+                                                <div class="progress-bar" style="width: 85%">85%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hemat Air -->
+            <div class="tab-pane fade" id="air" role="tabpanel">
+                <div class="row g-5 align-items-center flex-row-reverse">
+                    <div class="col-lg-5">
+                        <img src="img/guide_water_1778799301249.png" alt="Panduan Hemat Air" class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; aspect-ratio: 4/5;">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="fw-bold mb-4 text-primary-custom">Efisiensi Penggunaan Air Bersih</h3>
+                        <p class="text-muted mb-4">Hanya 1% dari total air di Bumi yang merupakan air tawar bersih yang bisa diakses. Menghemat air tidak hanya mengurangi tagihan, tetapi mencegah krisis kelangkaan air tanah.</p>
+                        
+                        <div class="accordion" id="accordionAir">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#air1">
+                                        1. Optimasi Pemakaian Domestik <span class="badge bg-success ms-auto">Langkah Dasar</span>
+                                    </button>
+                                </h2>
+                                <div id="air1" class="accordion-collapse collapse show" data-bs-parent="#accordionAir">
+                                    <div class="accordion-body">
+                                        <p>Aktivitas sehari-hari menguras banyak air tanpa kita sadari. Lakukan optimasi berikut:</p>
+                                        <ul>
+                                            <li>Matikan keran saat menyikat gigi atau menyabuni tangan. Keran yang menyala membuang hingga 6 liter air per menit.</li>
+                                            <li>Gunakan <i>shower</i> alih-alih gayung atau <i>bathtub</i>. Mandi dengan <i>shower</i> 5 menit jauh lebih hemat air.</li>
+                                            <li>Tampung air bekas cucian beras atau sayur untuk menyiram tanaman di pekarangan.</li>
+                                        </ul>
+                                        <div class="mt-3">
+                                            <p class="small text-muted mb-1 fw-bold">Penghematan Air Domestik:</p>
+                                            <div class="progress" style="height: 12px;">
+                                                <div class="progress-bar" style="width: 60%">60%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#air2">
+                                        2. Pemanenan Air Hujan (Rainwater Harvesting) <span class="badge bg-danger ms-auto">Tingkat Lanjut</span>
+                                    </button>
+                                </h2>
+                                <div id="air2" class="accordion-collapse collapse" data-bs-parent="#accordionAir">
+                                    <div class="accordion-body">
+                                        <p>Untuk level lanjutan, Anda bisa membuat sistem penampungan air hujan sederhana di rumah. Air hujan yang ditampung dari talang atap dapat disaring kasar dan digunakan untuk:</p>
+                                        <ul>
+                                            <li>Mencuci kendaraan bermotor.</li>
+                                            <li>Menyiram halaman dan taman skala besar.</li>
+                                            <li><i>Flushing</i> toilet (jika instalasi pipa memungkinkan).</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hemat Energi -->
+            <div class="tab-pane fade" id="energi" role="tabpanel">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <img src="img/guide_energy_1778799321238.png" alt="Panduan Hemat Energi" class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; aspect-ratio: 4/5;">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="fw-bold mb-4 text-primary-custom">Revolusi Energi di Rumah Tangga</h3>
+                        <p class="text-muted mb-4">Pembangkit listrik masih didominasi oleh energi fosil (batu bara) yang menghasilkan emisi gas rumah kaca masif. Menghemat listrik secara langsung akan memangkas jejak karbon Anda secara signifikan.</p>
+                        
+                        <div class="accordion" id="accordionEnergi">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#energi1">
+                                        1. Manajemen Perangkat Elektronik Pintar <span class="badge bg-success ms-auto">Langkah Dasar</span>
+                                    </button>
+                                </h2>
+                                <div id="energi1" class="accordion-collapse collapse show" data-bs-parent="#accordionEnergi">
+                                    <div class="accordion-body">
+                                        <p>Cabut steker dari stop kontak! Elektronik yang masih tertancap—bahkan saat dimatikan dengan *remote*—tetap mengonsumsi daya siluman (*vampire power*). Selain itu:</p>
+                                        <ul>
+                                            <li>Ganti seluruh lampu rumah dengan lampu LED. LED mengonsumsi daya 80% lebih rendah dibanding lampu pijar.</li>
+                                            <li>Atur suhu AC di angka optimal (24°C - 26°C), hindari mengatur AC terlalu dingin karena akan memaksa kompresor bekerja maksimal tanpa henti.</li>
+                                        </ul>
+                                        <div class="mt-3">
+                                            <p class="small text-muted mb-1 fw-bold">Potensi Penghematan Emisi CO2:</p>
+                                            <div class="progress" style="height: 12px;">
+                                                <div class="progress-bar" style="width: 75%">75%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Transportasi Hijau -->
+            <div class="tab-pane fade" id="transport" role="tabpanel">
+                <div class="row g-5 align-items-center flex-row-reverse">
+                    <div class="col-lg-5">
+                        <img src="img/guide_transport_1778799493833.png" alt="Panduan Transportasi" class="img-fluid rounded-4 shadow-lg w-100" style="object-fit: cover; aspect-ratio: 4/5;">
+                    </div>
+                    <div class="col-lg-7">
+                        <h3 class="fw-bold mb-4 text-primary-custom">Mobilitas Bebas Emisi</h3>
+                        <p class="text-muted mb-4">Sektor transportasi darat menyumbang porsi besar dalam polusi udara perkotaan. Mengubah cara kita berpindah tempat adalah kontribusi besar bagi kebersihan udara.</p>
+                        
+                        <div class="accordion" id="accordionTransport">
+                            <div class="accordion-item mb-3">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#trans1">
+                                        1. Ekosistem Transportasi Publik & Mikro <span class="badge bg-warning text-dark ms-auto">Langkah Menengah</span>
+                                    </button>
+                                </h2>
+                                <div id="trans1" class="accordion-collapse collapse show" data-bs-parent="#accordionTransport">
+                                    <div class="accordion-body">
+                                        <p>Penggunaan mobil pribadi dengan satu penumpang adalah inefisiensi ruang dan sumber daya yang besar. Solusinya:</p>
+                                        <ul>
+                                            <li>Gunakan opsi KRL, MRT, LRT, atau TransJakarta. Selain lebih murah, emisi per kapitanya jauh lebih rendah.</li>
+                                            <li>Untuk jarak di bawah 3 KM, gunakan sepeda atau berjalan kaki (<i>active mobility</i>). Ini menyehatkan tubuh sekaligus nol emisi karbon.</li>
+                                            <li>Jika terpaksa menggunakan kendaraan pribadi, lakukan <i>carpooling</i> (pergi bersama teman/rekan kerja searah).</li>
+                                        </ul>
+                                        <div class="mt-3">
+                                            <p class="small text-muted mb-1 fw-bold">Efektivitas Penurunan Emisi:</p>
+                                            <div class="progress" style="height: 12px;">
+                                                <div class="progress-bar" style="width: 90%">90%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-primary-custom text-white py-4 mt-auto">
+        <div class="container text-center">
+            <h4 class="fw-bold mb-3"><i class="bi bi-tree-fill me-2"></i>INature</h4>
+            <p class="mb-3 text-white-50">Panduan Hidup Hijau untuk Indonesia yang Lebih Lestari</p>
+            <div class="d-flex justify-content-center gap-4 mb-3">
+                <a href="beranda.html" class="text-white text-decoration-none">Beranda</a>
+                <a href="panduan.html" class="text-white text-decoration-none">Panduan</a>
+                <a href="kalkulator.html" class="text-white text-decoration-none">Kalkulator</a>
+                <a href="chatbot.html" class="text-white text-decoration-none">EcoBot</a>
+            </div>
+            <hr class="text-white-50">
+            <p class="mb-0 small text-white-50">&copy; 2026 INature. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

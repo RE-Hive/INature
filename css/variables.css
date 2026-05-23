@@ -1,0 +1,24 @@
+:root {
+  /* Core Colors - Elegant Earthy Palette */
+  --primary: #1A4D2E;      /* Deep forest green */
+  --primary-hover: #133D22;
+  --secondary: #4F6F52;    /* Muted olive green */
+  --accent: #E8DFCA;       /* Soft earthy beige */
+  --accent-light: #F5EFE6; /* Very light beige */
+  --warning: #D98324;      /* Muted earth orange */
+  --bg: #FDFDFD;           /* Clean white */
+  --bg-secondary: #F5F7F5; /* Light gray-green for alternate sections */
+  
+  /* Typography Colors */
+  --text: #2C3E2D;         /* Dark green-gray */
+  --text-light: #5C715E;   /* Muted text */
+  
+  /* Shadows */
+  --shadow-sm: 0 4px 12px rgba(26, 77, 46, 0.04);
+  --shadow-md: 0 12px 32px rgba(26, 77, 46, 0.08);
+  --shadow-lg: 0 24px 64px rgba(26, 77, 46, 0.12);
+  
+  /* Transitions */
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: 0.15s ease-out;
+}
